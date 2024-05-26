@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    gap: 100px;
+}
+
+.textContainer {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title {
+    color: var(--btn);
+}
+
+.subtitle {
+    max-width: 400px;
+}
+
+.description {
+    max-width: 600px;
+    font-size: 20px;
+    line-height: 1.4rem;
+    font-weight: 300;
+}
+
+.cardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card h1 {
+    font-weight: bold;
+    color: var(--btn);
+}
+
+.card p {
+    font-size: small;
+}
+
+.imgContainer {
+    flex:1;
+    position: relative;
+    /* width: 100%;
+    height: 500px; */
+}
+
+.image {
+    object-fit: contain;
+}
+/* last time: 1:08:08 video */
